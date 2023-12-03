@@ -1,0 +1,11 @@
+flask
+matplotlib
+nltk
+numpy
+pandas
+portalocker
+seaborn
+scikit-learn
+torch
+torchtext
+torchvision
