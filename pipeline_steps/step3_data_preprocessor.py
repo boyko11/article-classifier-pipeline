@@ -5,7 +5,7 @@ import torch
 from torchtext.vocab import GloVe
 from torchtext.data.utils import get_tokenizer
 
-from pipeline_node_abstract import PipelineNode
+from entities.pipeline_node_abstract import PipelineNode
 
 
 class DataPreprocessor(PipelineNode):

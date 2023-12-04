@@ -8,7 +8,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-from pipeline_node_abstract import PipelineNode
+from entities.pipeline_node_abstract import PipelineNode
 from util.plot_util import plot_stat_curves
 
 
@@ -91,7 +91,8 @@ class ModelTrainer(PipelineNode):
 
         # The model is ready for next steps - save it
         torch.save(self.model.state_dict(),
-                   os.path.join("model_repo", f"model_state_dict_{datetime.now().strftime('%Y_%m_%d_%H_%M_%S')}.pth"))
+                   os.path.join("model_repo",
+                                f"model_state_dict_{datetime.now().strftime('%Y_%m_%d_%H_%M_%S')}.pth"))
 
 
     def evaluate(self, data_loader):

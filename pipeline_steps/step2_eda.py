@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from pipeline_node_abstract import PipelineNode
+from entities.pipeline_node_abstract import PipelineNode
 from util.plot_util import plot_num_docs_per_category_chart, plot_doc_len_distribution_chart
 
 

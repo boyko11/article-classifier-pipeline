@@ -3,14 +3,12 @@ import shutil
 import time
 
 import torch
-
-from step3_data_preprocessor import DataPreprocessor
-from step4_model_trainer import TextClassifier
-from pipeline_node_abstract import PipelineNode
-
 import subprocess
 
-from step50_smoke_test_data_repo import DataRepo
+from entities.pipeline_node_abstract import PipelineNode
+from pipeline_steps.step3_data_preprocessor import DataPreprocessor
+from pipeline_steps.step4_model_trainer import TextClassifier
+from pipeline_steps.step50_smoke_test_data_repo import DataRepo
 
 
 class ModelDeployer(PipelineNode):
@@ -50,6 +48,7 @@ class ModelDeployer(PipelineNode):
 
     def stop_and_remove_container(self):
         subprocess.run(["docker", "stop", self.container_name], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        time.sleep(2)
         subprocess.run(["docker", "rm", self.container_name], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         print(f"-----{self.container_name} stopped and removed")
         time.sleep(2)

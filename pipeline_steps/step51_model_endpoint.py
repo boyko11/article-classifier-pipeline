@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify
 import torch
 
-from step3_data_preprocessor import DataPreprocessor
-from step50_smoke_test_data_repo import DataRepo
-from step52_trained_model_loader import ModelLoader
+from pipeline_steps.step3_data_preprocessor import DataPreprocessor
+from pipeline_steps.step50_smoke_test_data_repo import DataRepo
+from pipeline_steps.step52_trained_model_loader import ModelLoader
 
 app = Flask(__name__)
 

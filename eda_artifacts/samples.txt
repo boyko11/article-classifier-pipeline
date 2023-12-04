@@ -1,0 +1,29 @@
+Sample Documents:
+   label                                               text  num_words
+0      3  Wall St. Bears Claw Back Into the Black (Reute...         21
+1      3  Carlyle Looks Toward Commercial Aerospace (Reu...         36
+2      3  Oil and Economy Cloud Stocks' Outlook (Reuters...         36
+3      3  Iraq Halts Oil Exports from Main Southern Pipe...         36
+4      3  Oil prices soar to all-time record, posing new...         37
+------------------
+Sample Texts:
+World Failed Bhopal Gas Victims, Says Amnesty London, Nov. 30 (NNN) : The world has failed to help survivors of the Bhopal gas leak in India 20 years ago or to punish the guilty, Amnesty International has said.
+------------------
+Huawei wins 3G contract from Telfort Huawei Technologies, China #39;s leading telecommunications equipment maker, will build a third-generation network for Telfort, the Dutch mobile operator, its first such contract in Europe.
+------------------
+Wheel Woes For Mars Rover (AP) PASADENA, Calif. (AP)  The Mars rover Spirit has developed a problem with one of its six wheels, but NASA officials said Tuesday they believe the robot geologist can continue working.
+------------------
+Martyn continues his run feast Damien Martyn has made it back to back centuries against India as Australia looked to build a big first innings total in the third Test in Nagpur.
+------------------
+Olympic joy in Greek, Chinese press Newspapers in Greece reflect a mixture of exhilaration that the Athens Olympics proved successful, and relief that they passed off without any major setback.
+------------------
+Australian PM, Challenger in Dead Heat (AP) AP - Prime Minister John Howard and his Labor Party challenger were in a virtual dead heat on the eve of parliamentary elections, with Australians focusing on the economy and social programs more than Howard's decision to send troops to Iraq.
+------------------
+Dutch arrest man suspected of aiding Saddam war crimes, genocide (AFP) AFP - The Dutch police said they had arrested a man suspected of aiding former Iraqi leader Saddam Hussein in committing war crimes and genocide by supplying him with the materials to make chemical weapons used in attacks in the 1980s.
+------------------
+Video Claims Threat to Japanese Hostage's Life Video posted Tuesday on a militant Islamic Web site showed what it claimed was a Japanese captive kidnapped by Abu Musab al-Zarqawi's group and threatened to behead him within 48 hours unless Japan pulls its troops from Iraq.
+------------------
+Cabinet ministers suspended after Congo's parliament alleges corruption (Canadian Press) Canadian Press - KINSHASA, Congo (AP) - President Joseph Kabila suspended six cabinet ministers and 10 directors of state-run companies Thursday after a parliamentary inquiry alleged they had embezzled government funds.
+------------------
+UN nuclear watchdog hails Tripoli UN inspectors praise Libya for its co-operation in revealing details of its dismantled atomic weapons programme.
+------------------

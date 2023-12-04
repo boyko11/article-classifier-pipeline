@@ -1,7 +1,8 @@
 import requests
 import time
-from pipeline_node_abstract import PipelineNode
-from step50_smoke_test_data_repo import DataRepo
+
+from entities.pipeline_node_abstract import PipelineNode
+from pipeline_steps.step50_smoke_test_data_repo import DataRepo
 
 
 class ModelMonitor(PipelineNode):

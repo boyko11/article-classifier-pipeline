@@ -1,6 +1,6 @@
 import nltk
 
-from pipeline_node_abstract import PipelineNode
+from entities.pipeline_node_abstract import PipelineNode
 from torchtext.datasets import AG_NEWS
 
 

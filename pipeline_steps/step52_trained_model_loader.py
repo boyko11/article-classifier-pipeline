@@ -1,7 +1,7 @@
 import os
 import torch
 
-from step4_model_trainer import TextClassifier
+from pipeline_steps.step4_model_trainer import TextClassifier
 
 
 class ModelLoader:

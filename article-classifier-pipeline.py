@@ -1,9 +1,9 @@
-from step1_dataset_retriever import DatasetRetrieverAGNews
-from step2_eda import Eda
-from step3_data_preprocessor import DataPreprocessor
-from step4_model_trainer import ModelTrainer
-from step5_model_deployer import ModelDeployer
-from step6_model_monitor import ModelMonitor
+from pipeline_steps.step1_dataset_retriever import DatasetRetrieverAGNews
+from pipeline_steps.step2_eda import Eda
+from pipeline_steps.step3_data_preprocessor import DataPreprocessor
+from pipeline_steps.step4_model_trainer import ModelTrainer
+from pipeline_steps.step5_model_deployer import ModelDeployer
+from pipeline_steps.step6_model_monitor import ModelMonitor
 
 
 class Pipeline:
